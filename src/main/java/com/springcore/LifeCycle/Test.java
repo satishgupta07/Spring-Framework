@@ -18,6 +18,11 @@ public class Test {
 		
 		Pepsi p1 = (Pepsi)context.getBean("p1");
 		System.out.println(p1);
+		
+        System.out.println("*********************************************");
+		
+		Example example = (Example)context.getBean("example");
+		System.out.println(example);
 	}
 
 }
