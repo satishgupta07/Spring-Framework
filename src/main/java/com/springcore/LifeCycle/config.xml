@@ -13,5 +13,9 @@
 	      init-method="init" destroy-method="destroy">
 	    <property name="price" value="10" />
 	</bean>
+	
+	<bean class="com.springcore.LifeCycle.Pepsi" name="p1">
+	    <property name="price" value="35" />
+	</bean>
      
 </beans>

@@ -9,10 +9,15 @@ public class Test {
 		
 		AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/LifeCycle/config.xml");
 
+		context.registerShutdownHook();
+		
 		Samosa s1 = (Samosa)context.getBean("s1");
 		System.out.println(s1);
 		
-		context.registerShutdownHook();
+		System.out.println("*********************************************");
+		
+		Pepsi p1 = (Pepsi)context.getBean("p1");
+		System.out.println(p1);
 	}
 
 }
