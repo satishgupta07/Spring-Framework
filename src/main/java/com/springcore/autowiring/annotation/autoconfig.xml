@@ -11,9 +11,14 @@
 	 
 	 <context:annotation-config /> 
 	  
-	 <bean class="com.springcore.autowiring.annotation.Address" name="tempaddress">
+	 <bean class="com.springcore.autowiring.annotation.Address" name="temp1">
 	     <property name="street" value="Temp Street" />
 	     <property name="city" value="Delhi" />
+	 </bean>
+	 
+	  <bean class="com.springcore.autowiring.annotation.Address" name="temp2">
+	     <property name="street" value="Second Street" />
+	     <property name="city" value="Lucknow" />
 	 </bean>
 	 
 	 <bean class="com.springcore.autowiring.annotation.Emp" name="emp1" />
