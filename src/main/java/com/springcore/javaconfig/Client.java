@@ -10,7 +10,7 @@ public class Client {
 		ApplicationContext context =
 				new AnnotationConfigApplicationContext(JavaConfig.class);
 		
-		Student student = context.getBean("student", Student.class);
+		Student student = context.getBean("temp", Student.class);
 		System.out.println(student);
 		student.study();
 		
