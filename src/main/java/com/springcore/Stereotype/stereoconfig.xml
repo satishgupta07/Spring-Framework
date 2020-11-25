@@ -19,4 +19,6 @@
          <value>Kanpur</value>
      </util:list>
      
+     <bean class="com.springcore.Stereotype.Teacher" name="teacher" scope="prototype" />
+     
 </beans>
